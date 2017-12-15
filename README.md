@@ -49,6 +49,11 @@ This file contains a number of front-end interview questions that can be used wh
 #### HTML Questions:
 
 * What does a `doctype` do?
+
+Answer: It is an integral part of the HTML specification. Including it at the top of a html document ensures the browser makes a best effort 
+        attempt at following the relevant specification. Without it browsers tend to use a different rendering mode that is incompatible with some specifications.
+
+
 * What's the difference between full standards mode, almost standards mode and quirks mode?
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
