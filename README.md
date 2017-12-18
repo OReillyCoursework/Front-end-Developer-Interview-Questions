@@ -55,6 +55,12 @@ Answer: It is an integral part of the HTML specification. Including it at the to
 
 
 * What's the difference between full standards mode, almost standards mode and quirks mode?
+
+Answer: Before the W3C standards committee web pages were either writtern for Netscape Navigator or for Microsoft Internet Explorer. Post W3C when
+standards were agreed, quirks mode was introduced and deals with non-standard mostly legacy browsers. Full standards more is the default
+if you use the DOCTYPE html tag. In HTML5, the only purpose of the DOCTYPE is to activate full standards mode. Older versions of the HTML standard gave additional meaning to the DOCTYPE,
+but no browser has ever used the DOCTYPE for anything other than switching between quirks mode and standards mode.
+
 * What's the difference between HTML and XHTML?
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
