@@ -62,6 +62,9 @@ if you use the DOCTYPE html tag. In HTML5, the only purpose of the DOCTYPE is to
 but no browser has ever used the DOCTYPE for anything other than switching between quirks mode and standards mode.
 
 * What's the difference between HTML and XHTML?
+ 
+Answer: XHTML is HTML written as XML, it is stricter, and most browsers support it. XHTML enforces xmlns, doctype, and proper nesting
+
 * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
