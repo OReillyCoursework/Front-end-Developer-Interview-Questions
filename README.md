@@ -51,22 +51,25 @@ This file contains a number of front-end interview questions that can be used wh
 * What does a `doctype` do?
 
 Answer: It is an integral part of the HTML specification. Including it at the top of a html document ensures the browser makes a best effort 
-        attempt at following the relevant specification. Without it browsers tend to use a different rendering mode that is incompatible with some specifications.
+        attempt at following the relevant specification. Without it browsers tend to use a different rendering mode that is incompatible with some 
+        specifications.
 
 
 * What's the difference between full standards mode, almost standards mode and quirks mode?
 
 Answer: Before the W3C standards committee web pages were either writtern for Netscape Navigator or for Microsoft Internet Explorer. Post W3C when
 standards were agreed, quirks mode was introduced and deals with non-standard mostly legacy browsers. Full standards more is the default
-if you use the DOCTYPE html tag. In HTML5, the only purpose of the DOCTYPE is to activate full standards mode. Older versions of the HTML standard gave additional meaning to the DOCTYPE,
-but no browser has ever used the DOCTYPE for anything other than switching between quirks mode and standards mode.
+if you use the DOCTYPE html tag. In HTML5, the only purpose of the DOCTYPE is to activate full standards mode. Older versions of the HTML standard gave 
+additional meaning to the DOCTYPE,but no browser has ever used the DOCTYPE for anything other than switching between quirks mode 
+and standards mode.
 
 * What's the difference between HTML and XHTML?
  
-Answer: XHTML is HTML written as XML, it is stricter, and most browsers support it. XHTML enforces xmlns, doctype, and proper nesting
-
-* Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
+
+Answer: By changing the lang attribute on the html tag. Elements (suach as a div tag) can also include the lang attribute and then specify
+the language, and within the child node you can write the relevant language.
+
 * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
